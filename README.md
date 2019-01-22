@@ -14,7 +14,7 @@
 >  The ability to selectively enable or disable logging requests based on their logger is only part of the picture. Log4j allows logging requests to print to multiple destinations. In log4j speak, an output destination is called an Appender. Currently, appenders exist for the console, files, remote socket servers, Apache Flume, JMS, remote UNIX Syslog daemons, and various database APIs. See the section on Appenders for more details on the various types available. More than one Appender can be attached to a Logger.
 
 ## 核心配置
-![图片描述][1]
+ ![log4j类图](https://image-static.segmentfault.com/259/119/2591193124-5b7030d4a5312)
   上图是log4j2发送日志到kafka的核心类，其实最主要的`KafkaAppender`，其他的几个类是连接`kafka`服务的。
 - KafkaAppender核心配置
 ``` java
