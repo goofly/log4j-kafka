@@ -120,7 +120,3 @@ public final class KafkaAppender extends AbstractAppender {
 > 所有的消息都会被输出至本地文件。
 
 
-源码点我
-
-
-  [1]: /img/bVbfc8W
