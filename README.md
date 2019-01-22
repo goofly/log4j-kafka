@@ -15,7 +15,8 @@
 
 ## 核心配置
  ![log4j类图](https://image-static.segmentfault.com/259/119/2591193124-5b7030d4a5312)
-  上图是log4j2发送日志到kafka的核心类，其实最主要的`KafkaAppender`，其他的几个类是连接`kafka`服务的。
+
+上图是log4j2发送日志到kafka的核心类，其实最主要的`KafkaAppender`，其他的几个类是连接`kafka`服务的。
 - KafkaAppender核心配置
 ``` java
 @Plugin(name = "Kafka", category = "Core", elementType = "appender", printObject = true)
